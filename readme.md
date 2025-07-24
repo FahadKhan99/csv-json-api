@@ -1,6 +1,5 @@
 
 # ****CSV to JSON API****
----
 
 ##### This project is a Node.js + PostgreSQL backend service that:
 - Parses a CSV file into JSON objects (using **custom parsing logic**).
@@ -8,7 +7,6 @@
 - Prints an **age group distribution** report to the console.
 - Provides an endpoint to retrieve all stored users.
 
----
 
 ## **Scripts**
 The following `npm` scripts are available:
@@ -25,7 +23,6 @@ The following `npm` scripts are available:
   ```bash
   npm start
   ```
----
 
 ## **Project Structure**
 
@@ -64,7 +61,6 @@ csv-json-api/
 
 ```
 
----
 
 ## Environment structure
 ##### Your .env file should look like:
@@ -73,21 +69,21 @@ PORT=8080                  # Server port
 CSV_FILE_PATH=./data/users.csv  # Path to the CSV file
 DATABASE_URL=postgresql://<username>:<password>@<host>:<port>/<database>
 ```
----
+
 
 ## API Endpoints
 
 ### Process CSV and Insert Data
--- ```  POST /api/csv/process ```
--- Parses the CSV file from CSV_FILE_PATH.
--- Inserts all records into the users table.
--- Logs the age group distribution to the console.
+- ```  POST /api/csv/process ```
+  - Parses the CSV file from CSV_FILE_PATH.
+  - Inserts all records into the users table.
+  - Logs the age group distribution to the console.
 
 ### Get All Users
--- ```GET /api/users```
--- Returns all users stored in the database in JSON format.
+- ```GET /api/users```
+  - Returns all users stored in the database in JSON format.
 
----
+
 
 ## Examples
 
@@ -115,6 +111,7 @@ Age-Group % Distribution:
   "message": "CSV processed and data stored."
 }
 ```
+
 
 ### Output for ```GET /api/users```
 ```json
@@ -152,7 +149,6 @@ Age-Group % Distribution:
 ]
 ```
 
----
 
 ### Sample CSV (users_edge.csv)
 ```csv

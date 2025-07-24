@@ -1,0 +1,7 @@
+name.firstName,name.lastName,age,address.line1,address.line2,address.city,address.state,gender,phone,email,occupation
+Rohit,Prasad,35,A-563 Rakshak Society,New Pune Road,Pune,Maharashtra,male,9876543210,rohit@example.com,Engineer
+Sneha,Sharma,28,Flat 102 Lotus Residency,Baner Road,Pune,Maharashtra,female,9876543211,sneha@example.com,Doctor
+Ajay,Kumar,45,Plot 23 Green Valley,MG Road,Delhi,Delhi,male,9876543212,ajay@example.com,Manager
+Meera,Joshi,19,12A Ocean Apartments,Marine Drive,Mumbai,Maharashtra,female,,,Student
+Raj,Patil,65,45 Horizon Towers,JM Road,Pune,Maharashtra,male,9876543214,,Retired
+Anjali,Menon,42,,,,Kerala,,,anjali@example.com,Teacher

@@ -8,6 +8,11 @@
 - Provides an endpoint to retrieve all stored users.
 
 
+## Assumptions
+- The database will be empty before each new CSV import (hence using TRUNCATE).
+- The dataset is expected to be of manageable size (not >1GB).
+
+
 ## **Scripts**
 The following `npm` scripts are available:
 
